@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    padding-top: 60px;
+}
+
+.links {
+
+    list-style-type: none;
+    display: flex;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: all;
+    transition-duration: 0.3s;
+
+}
+
+.links a:hover {
+    color: #CA4361;
+}
+
+
+
+.buttons button {
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 51px;
+    width: 145px;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+.filled {
+    background-color: #CA4361;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.filled:hover {
+    background-color: white;
+    border-color: #CA4361;
+    color: #CA4361;
+}
+
+.outlined {
+    background-color: white;
+    border-color: #CA4361;
+    color: #CA4361;
+}
+
+.outlined:hover {
+    background-color: #CA4361;
+    color: white;
+    border: transparent;
+
+}
+
+.line {
+    border: 2px solid #CA4361;
+    width: 32px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+main {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+
+.hero h1 {
+    font-size: 55px;
+    font-weight: 600;
+    margin-right: 60px;
+    width: 446px;
+
+}
+
+.hero span {
+    color: #CA4361;
+}
+
+.hero p {
+    color: rgba(151, 151, 151, 65);
+    font-size: 21px;
+    width: 370px;
+    margin-top: 22px;
+}
+
+.cta {
+    width: 270px;
+    height: 65px;
+    background-color: #CA4361;
+    color: white;
+    font-size: 21px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    margin-top: 40px;
+    transition: all;
+    transition-duration: 0.3s;
+    cursor: pointer;
+
+}
+
+.cta:hover {
+    background-color: white;
+    border-color: #CA4361;
+    color: #CA4361;
+}
